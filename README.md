@@ -1,4 +1,4 @@
-# SMTP Scanner
+# COMBO TO SMTP
 
 A combo Formatter is a tool for resolving and validating SMTP credentials for a list of email/password combinations. It can check the validity of SMTP servers for popular email providers and perform DNS resolving for other domains.
 
