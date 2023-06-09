@@ -8,7 +8,7 @@ A combo Formatter is a tool for resolving and validating SMTP credentials for a 
 
 - Check SMTP server details for popular email providers
 
-- Perform DNS resolving for other domains & Ports
+- Perform DNS resolving for other domains & ports
 
 - Multithreaded execution for faster scanning
 
@@ -27,4 +27,8 @@ A combo Formatter is a tool for resolving and validating SMTP credentials for a 
 git clone https://github.com/Ill-u/COMBOFormat.git
 
 cd COMBOFormat
+go build COMBOFormat.go
+
+./COMBOFormat -input input.txt -output output.txt -threads 10
+
 
